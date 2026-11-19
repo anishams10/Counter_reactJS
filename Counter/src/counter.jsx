@@ -32,10 +32,15 @@ function Counter() {
       </div>
       
       <div className='btn-count'>
+
+        <div style={{display:'flex', gap: '10%'}}>
+
+            <button onClick={decrement} className='dec'>- Decrement</button>
+            <button onClick={increment} className='inc'>+ Increment</button>
+
+        </div>
         
-        <button onClick={decrement} className='dec'>- Decrement</button>
         <button onClick={toreset} className='reset'>Reset</button>
-        <button onClick={increment} className='inc'>+ Increment</button>
         
       </div>
     </div>
