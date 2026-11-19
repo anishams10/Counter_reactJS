@@ -1,0 +1,52 @@
+* { 
+    margin: auto;
+}
+
+.counter{
+    margin: 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transform: translateY(15%);
+    border: 1px solid rgb(0, 33, 45);
+    border-radius: 20px;
+    background-color: rgb(0, 17, 29);
+}
+
+.heading{
+    color: rgb(114, 114, 255);
+    text-decoration: wavy;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.countsect{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.number{
+    color: rgb(114, 114, 255);
+    font-size: 252px;
+    text-shadow: 4px 4px 6px #5f33ff;
+}
+
+.btn-count{
+    display: flex;
+    width: 80%;
+    color: rgb(114, 114, 255);
+}
+
+.inc, .reset, .dec{
+    color: rgb(114, 114, 255);
+    background-color: rgb(5, 0, 47);
+    padding: 20px;
+    border: 1px solid rgb(61, 23, 183);
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
